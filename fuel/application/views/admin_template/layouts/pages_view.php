@@ -366,7 +366,7 @@
 							<i class="icon-lock"></i> Lock Screen </a>
 						</li>
 						<li>
-							<a href="login.html">
+							<a href="admin/signin">
 							<i class="icon-key"></i> Log Out </a>
 						</li>
 					</ul>

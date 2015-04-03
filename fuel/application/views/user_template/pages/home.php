@@ -308,7 +308,7 @@
             <span>Metronic - The Most Complete &amp; Popular Admin &amp; Frontend Theme</span>
           </div>
           <div class="col-md-3 text-right">
-            <a class="btn-transparent" href="http://www.keenthemes.com/preview/index.php?theme=metronic_admin" target="_blank"><i class="fa fa-rocket margin-right-10"></i>Preview Admin</a>
+            <a class="btn-transparent" href="admin/profile/signin" target="_blank"><i class="fa fa-rocket margin-right-10"></i>Preview Admin</a>
           </div>
         </div>
         <!-- END BLOCKQUOTE BLOCK -->

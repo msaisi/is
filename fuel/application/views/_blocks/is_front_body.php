@@ -190,7 +190,7 @@ $pge=$pge===""?"home":$pge;
             </li>
             <li><a href="shop-index.html" target="_blank">E-Commerce</a></li>
             <li><a href="onepage-index.html" target="_blank">One Page</a></li>
-            <li><a href="http://keenthemes.com/preview/metronic/theme/templates/admin" target="_blank">Admin theme</a></li>
+            <li><a href="admin/profile" target="_blank">Admin theme</a></li>
 
             <!-- BEGIN TOP SEARCH -->
             <li class="menu-search">
