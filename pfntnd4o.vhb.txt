@@ -1,0 +1,213 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .gitignore
+#	new file:   .htaccess
+#	new file:   assets/cache/index.html
+#	new file:   assets/css/blog.css
+#	new file:   assets/css/common.css
+#	new file:   assets/css/main.css
+#	new file:   assets/css/reset.css
+#	new file:   assets/docs/index.html
+#	new file:   assets/images/_template_icons.svg
+#	new file:   assets/js/jquery.js
+#	new file:   assets/js/main.js
+#	new file:   assets/js/swfobject.js
+#	new file:   assets/metronic/admin/layout/css/custom.css
+#	new file:   assets/metronic/admin/layout/css/layout.css
+#	new file:   assets/metronic/admin/layout/css/themes/blue.css
+#	new file:   assets/metronic/admin/layout/css/themes/darkblue.css
+#	new file:   assets/metronic/admin/layout/css/themes/default.css
+#	new file:   assets/metronic/admin/layout/css/themes/grey.css
+#	new file:   assets/metronic/admin/layout/css/themes/light.css
+#	new file:   assets/metronic/admin/layout/css/themes/light2.css
+#	new file:   assets/metronic/admin/layout/img/ajax-loading.gif
+#	new file:   assets/metronic/admin/layout/img/ajax-modal-loading.gif
+#	new file:   assets/metronic/admin/layout/img/arrow-down.png
+#	new file:   assets/metronic/admin/layout/img/avatar.png
+#	new file:   assets/metronic/admin/layout/img/avatar1.jpg
+#	new file:   assets/metronic/admin/layout/img/avatar10.jpg
+#	new file:   assets/metronic/admin/layout/img/avatar11.jpg
+#	new file:   assets/metronic/admin/layout/img/avatar1_small.jpg
+#	new file:   assets/metronic/admin/layout/img/avatar2.jpg
+#	new file:   assets/metronic/admin/layout/img/avatar3.jpg
+#	new file:   assets/metronic/admin/layout/img/avatar3_small.jpg
+#	new file:   assets/metronic/admin/layout/img/avatar4.jpg
+#	new file:   assets/metronic/admin/layout/img/avatar5.jpg
+#	new file:   assets/metronic/admin/layout/img/avatar6.jpg
+#	new file:   assets/metronic/admin/layout/img/avatar7.jpg
+#	new file:   assets/metronic/admin/layout/img/avatar8.jpg
+#	new file:   assets/metronic/admin/layout/img/avatar9.jpg
+#	new file:   assets/metronic/admin/layout/img/hor-menu-red-arrow.png
+#	new file:   assets/metronic/admin/layout/img/icon-color-close.png
+#	new file:   assets/metronic/admin/layout/img/icon-color.png
+#	new file:   assets/metronic/admin/layout/img/icon-img-down.png
+#	new file:   assets/metronic/admin/layout/img/icon-img-up.png
+#	new file:   assets/metronic/admin/layout/img/inbox-nav-arrow-blue.png
+#	new file:   assets/metronic/admin/layout/img/loading-spinner-blue.gif
+#	new file:   assets/metronic/admin/layout/img/loading-spinner-default.gif
+#	new file:   assets/metronic/admin/layout/img/loading-spinner-grey.gif
+#	new file:   assets/metronic/admin/layout/img/loading.gif
+#	new file:   assets/metronic/admin/layout/img/logo-big-white.png
+#	new file:   assets/metronic/admin/layout/img/logo-big.png
+#	new file:   assets/metronic/admin/layout/img/logo-invert.png
+#	new file:   assets/metronic/admin/layout/img/logo.png
+#	new file:   assets/metronic/admin/layout/img/menu-toggler.png
+#	new file:   assets/metronic/admin/layout/img/photo1.jpg
+#	new file:   assets/metronic/admin/layout/img/photo2.jpg
+#	new file:   assets/metronic/admin/layout/img/photo3.jpg
+#	new file:   assets/metronic/admin/layout/img/remove-icon-small.png
+#	new file:   assets/metronic/admin/layout/img/search_icon_light.png
+#	new file:   assets/metronic/admin/layout/img/sidebar-menu-arrow-reverse.png
+#	new file:   assets/metronic/admin/layout/img/sidebar-menu-arrow-right.png
+#	new file:   assets/metronic/admin/layout/img/sidebar-menu-arrow.png
+#	new file:   assets/metronic/admin/layout/img/sidebar_arrow_icon_light.png
+#	new file:   assets/metronic/admin/layout/img/sidebar_arrow_icon_light_rtl.png
+#	new file:   assets/metronic/admin/layout/img/sidebar_inline_toggler_icon_blue.jpg
+#	new file:   assets/metronic/admin/layout/img/sidebar_inline_toggler_icon_darkblue.jpg
+#	new file:   assets/metronic/admin/layout/img/sidebar_inline_toggler_icon_default.jpg
+#	new file:   assets/metronic/admin/layout/img/sidebar_inline_toggler_icon_grey.jpg
+#	new file:   assets/metronic/admin/layout/img/sidebar_inline_toggler_icon_light.jpg
+#	new file:   assets/metronic/admin/layout/img/sidebar_inline_toggler_icon_light2.jpg
+#	new file:   assets/metronic/admin/layout/img/sidebar_toggler_icon_blue.png
+#	new file:   assets/metronic/admin/layout/img/sidebar_toggler_icon_darkblue.png
+#	new file:   assets/metronic/admin/layout/img/sidebar_toggler_icon_default.png
+#	new file:   assets/metronic/admin/layout/img/sidebar_toggler_icon_grey.png
+#	new file:   assets/metronic/admin/layout/img/sidebar_toggler_icon_light.png
+#	new file:   assets/metronic/admin/layout/img/sidebar_toggler_icon_light2.png
+#	new file:   assets/metronic/admin/layout/scripts/demo.js
+#	new file:   assets/metronic/admin/layout/scripts/layout.js
+#	new file:   assets/metronic/admin/layout/scripts/quick-sidebar.js
+#	new file:   assets/metronic/admin/layout2/css/custom.css
+#	new file:   assets/metronic/admin/layout2/css/layout.css
+#	new file:   assets/metronic/admin/layout2/css/themes/blue.css
+#	new file:   assets/metronic/admin/layout2/css/themes/dark.css
+#	new file:   assets/metronic/admin/layout2/css/themes/default.css
+#	new file:   assets/metronic/admin/layout2/css/themes/grey.css
+#	new file:   assets/metronic/admin/layout2/css/themes/light.css
+#	new file:   assets/metronic/admin/layout2/img/ajax-loading.gif
+#	new file:   assets/metronic/admin/layout2/img/ajax-modal-loading.gif
+#	new file:   assets/metronic/admin/layout2/img/arrow-down.png
+#	new file:   assets/metronic/admin/layout2/img/avatar.png
+#	new file:   assets/metronic/admin/layout2/img/avatar1.jpg
+#	new file:   assets/metronic/admin/layout2/img/avatar10.jpg
+#	new file:   assets/metronic/admin/layout2/img/avatar11.jpg
+#	new file:   assets/metronic/admin/layout2/img/avatar1_small.jpg
+#	new file:   assets/metronic/admin/layout2/img/avatar2.jpg
+#	new file:   assets/metronic/admin/layout2/img/avatar3.jpg
+#	new file:   assets/metronic/admin/layout2/img/avatar3_small.jpg
+#	new file:   assets/metronic/admin/layout2/img/avatar4.jpg
+#	new file:   assets/metronic/admin/layout2/img/avatar5.jpg
+#	new file:   assets/metronic/admin/layout2/img/avatar6.jpg
+#	new file:   assets/metronic/admin/layout2/img/avatar7.jpg
+#	new file:   assets/metronic/admin/layout2/img/avatar8.jpg
+#	new file:   assets/metronic/admin/layout2/img/avatar9.jpg
+#	new file:   assets/metronic/admin/layout2/img/hor-menu-red-arrow.png
+#	new file:   assets/metronic/admin/layout2/img/icon-color-close.png
+#	new file:   assets/metronic/admin/layout2/img/icon-color.png
+#	new file:   assets/metronic/admin/layout2/img/icon-img-down.png
+#	new file:   assets/metronic/admin/layout2/img/icon-img-up.png
+#	new file:   assets/metronic/admin/layout2/img/inbox-nav-arrow-blue.png
+#	new file:   assets/metronic/admin/layout2/img/loading-spinner-blue.gif
+#	new file:   assets/metronic/admin/layout2/img/loading-spinner-default.gif
+#	new file:   assets/metronic/admin/layout2/img/loading-spinner-grey.gif
+#	new file:   assets/metronic/admin/layout2/img/loading.gif
+#	new file:   assets/metronic/admin/layout2/img/logo-big-white.png
+#	new file:   assets/metronic/admin/layout2/img/logo-big.png
+#	new file:   assets/metronic/admin/layout2/img/logo-default.png
+#	new file:   assets/metronic/admin/layout2/img/logo.png
+#	new file:   assets/metronic/admin/layout2/img/menu-toggler.png
+#	new file:   assets/metronic/admin/layout2/img/photo1.jpg
+#	new file:   assets/metronic/admin/layout2/img/photo2.jpg
+#	new file:   assets/metronic/admin/layout2/img/remove-icon-small.png
+#	new file:   assets/metronic/admin/layout2/img/search_icon_light.png
+#	new file:   assets/metronic/admin/layout2/img/sidebar-menu-arrow-reverse.png
+#	new file:   assets/metronic/admin/layout2/img/sidebar-menu-arrow-right.png
+#	new file:   assets/metronic/admin/layout2/img/sidebar-menu-arrow.png
+#	new file:   assets/metronic/admin/layout2/img/sidebar-toggler-inverse.png
+#	new file:   assets/metronic/admin/layout2/img/sidebar-toggler.png
+#	new file:   assets/metronic/admin/layout2/img/sidebar_arrow_icon_light.png
+#	new file:   assets/metronic/admin/layout2/img/sidebar_arrow_icon_light_rtl.png
+#	new file:   assets/metronic/admin/layout2/img/sidebar_inline_toggler_icon_blue.jpg
+#	new file:   assets/metronic/admin/layout2/img/sidebar_inline_toggler_icon_darkblue.jpg
+#	new file:   assets/metronic/admin/layout2/img/sidebar_inline_toggler_icon_default.jpg
+#	new file:   assets/metronic/admin/layout2/img/sidebar_inline_toggler_icon_grey.jpg
+#	new file:   assets/metronic/admin/layout2/img/sidebar_inline_toggler_icon_light.jpg
+#	new file:   assets/metronic/admin/layout2/img/sidebar_inline_toggler_icon_light2.jpg
+#	new file:   assets/metronic/admin/layout2/img/sidebar_toggler_icon_blue.png
+#	new file:   assets/metronic/admin/layout2/img/sidebar_toggler_icon_darkblue.png
+#	new file:   assets/metronic/admin/layout2/img/sidebar_toggler_icon_default.png
+#	new file:   assets/metronic/admin/layout2/img/sidebar_toggler_icon_grey.png
+#	new file:   assets/metronic/admin/layout2/img/sidebar_toggler_icon_light.png
+#	new file:   assets/metronic/admin/layout2/img/sidebar_toggler_icon_light2.png
+#	new file:   assets/metronic/admin/layout2/scripts/demo.js
+#	new file:   assets/metronic/admin/layout2/scripts/layout.js
+#	new file:   assets/metronic/admin/layout2/scripts/quick-sidebar.js
+#	new file:   assets/metronic/admin/layout3/css/custom.css
+#	new file:   assets/metronic/admin/layout3/css/layout.css
+#	new file:   assets/metronic/admin/layout3/css/themes/blue-hoki.css
+#	new file:   assets/metronic/admin/layout3/css/themes/blue-steel.css
+#	new file:   assets/metronic/admin/layout3/css/themes/default.css
+#	new file:   assets/metronic/admin/layout3/css/themes/green-haze.css
+#	new file:   assets/metronic/admin/layout3/css/themes/purple-plum.css
+#	new file:   assets/metronic/admin/layout3/css/themes/purple-studio.css
+#	new file:   assets/metronic/admin/layout3/css/themes/red-intense.css
+#	new file:   assets/metronic/admin/layout3/css/themes/red-sunglo.css
+#	new file:   assets/metronic/admin/layout3/css/themes/yellow-crusta.css
+#	new file:   assets/metronic/admin/layout3/css/themes/yellow-orange.css
+#	new file:   assets/metronic/admin/layout3/img/ajax-loading.gif
+#	new file:   assets/metronic/admin/layout3/img/ajax-modal-loading.gif
+#	new file:   assets/metronic/admin/layout3/img/avatar.png
+#	new file:   assets/metronic/admin/layout3/img/avatar1.jpg
+#	new file:   assets/metronic/admin/layout3/img/avatar10.jpg
+#	new file:   assets/metronic/admin/layout3/img/avatar11.jpg
+#	new file:   assets/metronic/admin/layout3/img/avatar2.jpg
+#	new file:   assets/metronic/admin/layout3/img/avatar3.jpg
+#	new file:   assets/metronic/admin/layout3/img/avatar4.jpg
+#	new file:   assets/metronic/admin/layout3/img/avatar5.jpg
+#
+# Untracked files:
+#	README.md
+#	_notes/
+#	assets/metronic/admin/layout3/img/avatar6.jpg
+#	assets/metronic/admin/layout3/img/avatar7.jpg
+#	assets/metronic/admin/layout3/img/avatar8.jpg
+#	assets/metronic/admin/layout3/img/avatar9.jpg
+#	assets/metronic/admin/layout3/img/icon-color-close.png
+#	assets/metronic/admin/layout3/img/icon-color.png
+#	assets/metronic/admin/layout3/img/loading-spinner-blue.gif
+#	assets/metronic/admin/layout3/img/loading-spinner-default.gif
+#	assets/metronic/admin/layout3/img/loading-spinner-grey.gif
+#	assets/metronic/admin/layout3/img/loading.gif
+#	assets/metronic/admin/layout3/img/logo-big-white.png
+#	assets/metronic/admin/layout3/img/logo-big.png
+#	assets/metronic/admin/layout3/img/logo-blue-hoki.png
+#	assets/metronic/admin/layout3/img/logo-blue-steel.png
+#	assets/metronic/admin/layout3/img/logo-default.png
+#	assets/metronic/admin/layout3/img/logo-green-haze.png
+#	assets/metronic/admin/layout3/img/logo-purple-plum.png
+#	assets/metronic/admin/layout3/img/logo-purple-studio.png
+#	assets/metronic/admin/layout3/img/logo-red-intense.png
+#	assets/metronic/admin/layout3/img/logo-red-sunglo.png
+#	assets/metronic/admin/layout3/img/logo-yellow-crusta.png
+#	assets/metronic/admin/layout3/img/logo-yellow-orange.png
+#	assets/metronic/admin/layout3/img/logo.png
+#	assets/metronic/admin/layout3/img/menu-toggler.png
+#	assets/metronic/admin/layout3/scripts/
+#	assets/metronic/admin/layout4/
+#	assets/metronic/admin/pages/
+#	assets/metronic/frontend/
+#	assets/metronic/global/
+#	assets/pdf/
+#	assets/swf/
+#	fuel/
+#	index.php
+#	is_database.sql
+#	robots.txt
+#
+
