@@ -55,6 +55,11 @@ License: You must have a valid license purchased only from themeforest(the above
 <link href="assets/metronic/admin/pages/css/login-soft.css" rel="stylesheet" type="text/css"/>
 <!-- END PAGE LEVEL SCRIPTS -->
 <?php }?>
+<?php if(strtolower(uri_segment(2))=="lock")
+{?>
+<link href="assets/metronic/admin/pages/css/lock2.css" rel="stylesheet" type="text/css"/>
+<!-- END PAGE LEVEL SCRIPTS -->
+<?php }?>
 </head>
 <!-- END HEAD -->
 <!-- BEGIN BODY -->

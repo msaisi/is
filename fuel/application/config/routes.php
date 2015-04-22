@@ -42,6 +42,8 @@
 $route['default_controller'] = 'fuel/page_router';
 $route['404_override'] = 'fuel/page_router';
 
+$route['insurer/signout']='admin_auth/signout';
+
 /*	
 | Uncomment this line if you want to use the automatically generated sitemap based on your navigation.
 | To modify the sitemap.xml, go to the views/sitemap_xml.php file.

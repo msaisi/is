@@ -124,6 +124,15 @@
     <!-- END RevolutionSlider -->
 
     <script src="assets/metronic/frontend/layout/scripts/layout.js" type="text/javascript"></script>
+  
+
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script src="assets/metronic/global/plugins/jquery-validation/js/jquery.validate.min.js" type="text/javascript"></script>
+<script src="assets/metronic/admin/pages/scripts/register.js" type="text/javascript"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+    
+    
+    
     <script type="text/javascript">
         jQuery(document).ready(function() {
             Layout.init();    

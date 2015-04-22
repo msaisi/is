@@ -1,0 +1,28 @@
+.ico_gradstate { background-image: url(../images/ico_page_white_edit.png); }
+/*.ico_gradstate_students { background-image: url(../images/ico_student.png); }*/
+.ico_gradstate_institutions { background-image: url(../images/ico_university.png); }
+.ico_gradstate_institution_types { background-image: url(../images/ico_institution_types.png); }
+.ico_gradstate_class_types { background-image: url(../images/ico_class_types.png) !important; }
+.ico_gradstate_course_levels{ background-image: url(../images/ico_course_levels.png) !important; }
+.ico_gradstate_course_types { background-image: url(../images/ico_course_type.png) !important; }
+.ico_gradstate_faculties { background-image: url(../images/ico_faculty.png) !important; }
+.ico_gradstate_features { background-image: url(../images/ico_features.png) !important; }
+.ico_gradstate_countries { background-image: url(../images/ico_country.png) !important; }
+.ico_gradstate_counties { background-image: url(../images/ico_counties.png) !important; }
+.ico_gradstate_packages { background-image: url(../images/ico_pers.png) !important; }
+.ico_gradstate_package_pricing { background-image: url(../images/ico_pers.png) !important; }
+.ico_gradstate_qualifications { background-image: url(../images/ico_qualifications.png) !important; }
+.ico_gradstate_sectors { background-image: url(../images/ico_sectors.png) !important; }
+.ico_gradstate_campuses { background-image: url(../images/ico_campuses.png) !important; }
+.ico_gradstate_courses { background-image: url(../images/ico_course.png) !important; }
+.ico_gradstate_packages_subscriptions { background-image: url(../images/ico_subscribe.png) !important; }
+.ico_gradstate_features_subscriptions { background-image: url(../images/ico_subscribe.png) !important; }
+.ico_gradstate_top_banners { background-image: url(../images/ico_banner.png) !important; }
+.ico_gradstate_hot_courses { background-image: url(../images/ico_hot_courses.png) !important; }
+.ico_gradstate_home_sliders { background-image: url(../images/ico_sitemeta.png) !important; }
+.ico_gradstate_clicks { background-image: url(../images/ico_clicks.png) !important; }
+.ico_gradstate_international_universities { background-image: url(../images/ico_university.png) !important; }
+.ico_gradstate_quick_downloads { background-image: url(../images/ico_quick_downloads.png) !important; }
+.ico_gradstate_quick_downloads_log { background-image: url(../images/ico_q_d.png) !important; }
+.ico_gradstate_form_downloads { background-image: url(../images/ico_form_downloads.png) !important; }
+

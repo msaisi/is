@@ -1,0 +1,1 @@
+<?php echo fuel_var('body', ''); ?>

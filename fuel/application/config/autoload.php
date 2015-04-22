@@ -37,9 +37,7 @@
 |
 */
 
-$autoload['packages'] = array(
-	FUEL_PATH
-	);
+$autoload['packages'] = array(FUEL_PATH,COMPANIES_PATH);
 
 
 /*
@@ -54,7 +52,7 @@ $autoload['packages'] = array(
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('fuel/asset', 'fuel/fuel');
+$autoload['libraries'] = array('fuel/asset', 'fuel/fuel','session','companies/companies_users_auth','Encryption','encrypt');
 
 
 /*
@@ -111,7 +109,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array();
+$autoload['model'] = array('companies/companies_users_model','companies/companies_accounts_model','group_access/groups_model','group_access/group_to_permissions_model','fuel/fuel_permissions_model','companies/companies_countries_model','companies/companies_counties_model','companies/companies_departments_model');
 
 
 /* End of file autoload.php */

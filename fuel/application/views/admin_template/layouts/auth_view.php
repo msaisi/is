@@ -2,7 +2,7 @@
 <body class="page-md login">
 <!-- BEGIN LOGO -->
 <div class="logo">
-	<a href="<?=base_url()?>profile">
+	<a href="<?=base_url()?>">
 	<img src="assets/metronic/admin/layout/img/logo-big.png" alt=""/>
 	</a>
 </div>
@@ -14,13 +14,26 @@
 <!-- BEGIN LOGIN -->
 <div class="content">
 	<!-- BEGIN LOGIN FORM -->
-	<form class="login-form" action="auth/login" method="post">
-		<h3 class="form-title">Login to your account</h3>
-		<div class="alert alert-danger display-hide">
-			<button class="close" data-close="alert"></button>
-			<span>
-			Enter any username and password. </span>
-		</div>
+	<form class="login-form" action="admin_auth/login" method="post">
+		<h3 class="form-title">Login to your account</h3>       
+        <?php 
+		$type="success";
+		$disp="display-hide";
+		$msg="Enter any username and password. ";
+		$my_flash_data=$this->session->flashdata('admin_login_item');
+	
+		if(!empty($my_flash_data))
+		{
+			$type=$my_flash_data['type'];
+			$disp="";
+			$msg=$my_flash_data['message'];
+		}
+		?>        
+		<div class="alert alert-<?=$type?> <?=$disp?>">
+			<button class="close" data-close="alert"></button>            
+			<span><?=$msg?></span>            
+		</div>       
+        
 		<div class="form-group">
 			<!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
 			<label class="control-label visible-ie8 visible-ie9">Username</label>

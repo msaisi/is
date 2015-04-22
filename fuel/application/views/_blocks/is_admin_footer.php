@@ -60,6 +60,18 @@ else if(strtolower(uri_segment(2))=="signin")
 <script src="assets/metronic/admin/pages/scripts/login-soft.js" type="text/javascript"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
 
+<?php }
+else if(strtolower(uri_segment(2))=="lock")
+{?>
+
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script src="assets/metronic/global/plugins/jquery-validation/js/jquery.validate.min.js" type="text/javascript"></script>
+<script src="assets/metronic/global/plugins/backstretch/jquery.backstretch.min.js" type="text/javascript"></script>
+<!-- END PAGE LEVEL PLUGINS -->
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="assets/metronic/admin/pages/scripts/lock.js"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+
 <?php }?>
 <!-- END PAGE LEVEL SCRIPTS -->
 <script>
@@ -86,6 +98,20 @@ jQuery(document).ready(function() {
    else if(uri_2=='signin')
    {	  
   		Login.init();
+		// init background slide images
+		$.backstretch([
+			"<?=base_url()?>assets/metronic/admin/pages/media/bg/1.jpg",
+			"<?=base_url()?>assets/metronic/admin/pages/media/bg/2.jpg",
+			"<?=base_url()?>assets/metronic/admin/pages/media/bg/3.jpg",
+			"<?=base_url()?>assets/metronic/admin/pages/media/bg/4.jpg"
+			], {
+			  fade: 1000,
+			  duration: 8000
+		});
+   }
+    else if( uri_2=='lock')
+   {	  
+		Lock.init();
 		// init background slide images
 		$.backstretch([
 			"<?=base_url()?>assets/metronic/admin/pages/media/bg/1.jpg",
